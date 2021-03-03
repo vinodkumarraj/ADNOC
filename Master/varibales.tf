@@ -43,5 +43,5 @@ variable "LA_Sku" {
 variable "LA_retention_in_days" {
     type = string
     description = "Retention days"
-    default     = "15"
+    default     = "30"
 }
