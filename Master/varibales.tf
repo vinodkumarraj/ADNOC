@@ -37,9 +37,11 @@ variable "subnet_prefix" {
 variable "LA_Sku" {
     type        = string
     description = "Prefix to be used for the resources"
+    default = "standard"
 }
 
 variable "LA_retention_in_days" {
     type = string
     description = "Retention days"
+    default     = "15"
 }
