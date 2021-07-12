@@ -19,7 +19,7 @@ resource "azurerm_windows_virtual_machine" "VM" {
   admin_username      = "adminuser"
   admin_password      = "P@$$w0rd1234!"
   network_interface_ids = [
-    azurerm_network_interface.nic.id,
+    azurerm_network_interface.nic.id
   ]
 
   os_disk {
